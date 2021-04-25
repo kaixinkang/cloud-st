@@ -1,0 +1,10 @@
+server:
+  port: 8610
+spring:
+  application:
+    name: service-cousumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.20.185.64:8848
+

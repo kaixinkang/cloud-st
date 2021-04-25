@@ -1,0 +1,9 @@
+server:
+  port: 8511
+spring:
+  application:
+    name: service-produver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.20.185.64:8848
